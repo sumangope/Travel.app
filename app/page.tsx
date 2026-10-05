@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       <section className={styles.bottomBanner} id="inspiration"><div><p className={styles.eyebrow}>Travel differently</p><h2>Go where your<br /><em>curiosity leads.</em></h2></div><p>Whether you are chasing city lights or quiet mornings, we help you find stays with a little more soul.</p><button className={styles.outlineButton}>Our travel guide <ArrowRight size={16} /></button></section>
-      <footer id="about"><span>© 2024 travel.app</span><span>Thoughtful stays for thoughtful travelers.</span><span>Made for the journey.</span></footer>
+      <footer className={styles.footer} id="about"><span>© 2024 travel.app</span><span>Thoughtful stays for thoughtful travelers.</span><span>Made for the journey.</span></footer>
     </main>
   )
 }
